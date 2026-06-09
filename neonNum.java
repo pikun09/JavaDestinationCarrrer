@@ -11,7 +11,7 @@ public class neonNum {
         }
         return sum;
     }
-    public static void main(String[] args){
+    public static void Main(String[] args){
         int num = 9;
         System.out.println(isNeon(num) == num ?"Neon Number":"Not Neon Number");
     }
