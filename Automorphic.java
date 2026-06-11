@@ -9,7 +9,7 @@ public class Automorphic {
     }
     public static void main(String[] args){
         int num = 25;
-        System.out.println(num == num*num%(power10(num))?"Automorphic Number ":"Not Automerphic Number");
+        System.out.println(num == num*num%(power10(num))?"Automorphic Number ":"Not Automorphic Number");
     }
       
 }
