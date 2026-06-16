@@ -5,7 +5,7 @@ public class studentData {
         student s3 = new student(2, "Bilu");
         student s4 = new student(3, "Lupa", 23);
         student s5 = new student(1, "Luna", 87, 457);
-        student s6 = new student(6, "Billu", 25, 720, 1245632541);
+        student s6 = new student(6, "Billa", 25, 720, 1245632541);
         student s7 = new student(8, "Hamza Ali", 40, 630, 578214578, "Lahor");
 
         System.out.println(s1.studentId);
