@@ -1,0 +1,61 @@
+public class studentData {
+    public static void main(String[] args) {
+        student s1 = new student();
+        student s2 = new student(1);
+        student s3 = new student(2, "Bilu");
+        student s4 = new student(3, "Lupa", 23);
+        student s5 = new student(1, "Luna", 87, 457);
+        student s6 = new student(6, "Billu", 25, 720, 1245632541);
+        student s7 = new student(8, "Hamza Ali", 40, 630, 578214578, "Lahor");
+
+        System.out.println(s1.studentId);
+        System.out.println(s1.studentName);
+        System.out.println(s1.studentAge);
+        System.out.println(s1.studentMarks);
+        System.out.println(s1.studentParentContactNumber);
+        System.out.println(s1.studentAddress);
+        System.out.println("-------------------------");
+        System.out.println(s2.studentId);
+        System.out.println(s2.studentName);
+        System.out.println(s2.studentAge);
+        System.out.println(s2.studentMarks);
+        System.out.println(s2.studentParentContactNumber);
+        System.out.println(s2.studentAddress);
+        System.out.println("-------------------------");
+        System.out.println(s3.studentId);
+        System.out.println(s3.studentName);
+        System.out.println(s3.studentAge);
+        System.out.println(s3.studentMarks);
+        System.out.println(s3.studentParentContactNumber);
+        System.out.println(s3.studentAddress);
+        System.out.println("-------------------------");
+        System.out.println(s4.studentId);
+        System.out.println(s4.studentName);
+        System.out.println(s4.studentAge);
+        System.out.println(s4.studentMarks);
+        System.out.println(s4.studentParentContactNumber);
+        System.out.println(s4.studentAddress);
+        System.out.println("-------------------------");
+        System.out.println(s5.studentId);
+        System.out.println(s5.studentName);
+        System.out.println(s5.studentAge);
+        System.out.println(s5.studentMarks);
+        System.out.println(s5.studentParentContactNumber);
+        System.out.println(s5.studentAddress);
+        System.out.println("-------------------------");
+        System.out.println(s6.studentId);
+        System.out.println(s6.studentName);
+        System.out.println(s6.studentAge);
+        System.out.println(s6.studentMarks);
+        System.out.println(s6.studentParentContactNumber);
+        System.out.println(s6.studentAddress);
+        System.out.println("-------------------------");
+        System.out.println(s7.studentId);
+        System.out.println(s7.studentName);
+        System.out.println(s7.studentAge);
+        System.out.println(s7.studentMarks);
+        System.out.println(s7.studentParentContactNumber);
+        System.out.println(s7.studentAddress);
+        System.out.println("-------------------------");
+    }
+}
