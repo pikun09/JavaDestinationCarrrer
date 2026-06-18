@@ -2,6 +2,7 @@ public class employee{
     int id;
     String name;
     {
+        //Non Static multiline INITIALIZER
         System.out.println("Employee object created");
         System.out.println(name);
     }
